@@ -7,23 +7,18 @@
     <meta name="description" content="webPractice">
 </head>
 <body>
-   <!-- タイトル -->
    <h1>webPractice</h1>
    <div>
     <h2>大問２：文字列</h2>
-    <!-- strike.斜線いれる -->
     <p> <strike>朝ごはんは卵かけご飯</strike></p>
     <p>昼ごはんは天ぷらそば</p>
-    <!-- bタブ.太字にする -->
     <p><b>夜ごはんは焼肉</b></p>
-    <!-- 順不同リスト -->
     <ul>
         <li>カルビ</li>
         <li>ハラミ</li>
         <li>タン</li>
         <li>レバー</li>
     </ul>
-    <!-- 順番があるリスト -->
     <ol>
         <li>タイ</li>
         <li>ブリ</li>
@@ -33,41 +28,29 @@
    </div>
    <div>
     <h2>大問３：画像系</h2>
-    <!-- 画像を貼る alt.画像の説明 width.画像の物理的な大きさの指定（横） -->
     <img src="./img1st.jpg" alt="スト６の画像" width="450">
-    <!-- 動画を貼る controls.再生ボタンの設置 width.物理的な動画サイズの指定(横) -->
     <video src="./mp4file.mp4" controls width="450"></video>
    </div>
    <div>
     <h2>大問４：入力系</h2>
-    <!-- 文字の入力 -->
     <p>文字列</p>
     <input type="text" />
-    <!-- 数字のみの入力 -->
     <p>数値</p>
     <input type="number" />
-    <!-- ファイルの入力 -->
     <p>画像、動画</p>
     <input type="file" />
-    <!-- ボタンの設置 valueでボタンの中に文字入れる -->
     <p>ボタン</p>
     <input type="button" value="ここをクリック" />
    </div>
    <div>
     <h2>大問５：その他</h2>
-    <!-- ボタンの設置 value.ボタンの中の文字 onclick.ボタン押すと反応する location.hrefボタン押したときの飛ばす場所の指定 -->
-    <!-- 遷移先にこのページに戻ってくるボタンを作ると便利 -->
     <p>別ページとぶボタン</p>
     <input type="button" value="5億年ボタン" onclick="location.href='./subpage.html'">
-    <!-- table.表全体の範囲 border.枠線つける bordercolor.枠線に色付ける width.height.表全体の大きさの指定（横.縦） -->
     <table border="5" bordercolor="red" width="450" height="500">
         <tr>
-            <!-- 表の見出し colspan.セルを横にx個つなげる align.物理的なデータの表記位置の指定 -->
             <th colspan="9" align="center">九九表</th>
         </tr>
-        <!-- 表の行 align.trで囲まれている範囲すべての物理的なデータ位置の指定 bgcolor.セルに色を付ける -->
         <tr align="center" bgcolor="yellow">
-            <!-- データを書き込む width.セルごとの物理的な大きさの指定(横) -->
             <td width="50">1</td>
             <td width="50">2</td>
             <td width="50">3</td>
